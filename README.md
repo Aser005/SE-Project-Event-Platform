@@ -132,6 +132,14 @@ After running `npm run seed`, use these accounts (password: `password123`):
 - [x] Confirmed bookings with date/venue filters and organizer contact
 - [x] Performance analytics dashboard with per-listing revenue and export
 
+## Extra Features
+
+Beyond the core required user journeys, this platform includes several additional enhancements to provide a superior user experience:
+- **Interactive 3D Floor Plan View:** An advanced 3D visualization tool that allows organizers to preview and navigate their floor plan setups in three dimensions before the actual event.
+- **Auto Layout Generation:** Automated, smart placement tools for the floor plan designer to quickly and optimally arrange event elements.
+- **Dynamic QR Code Check-Ins:** Guests receive dynamically generated QR codes which can be easily scanned for fast, seamless entry to the event venue.
+- **Rich PNG/JSON Exports:** Export floor plans as high-quality PNGs and post-event feedback as structured JSON data for off-platform analysis.
+
 ## Assumptions
 
 - Email/SMS invitations are simulated in-app (no real SMTP); "Send Invite" marks the invitation as sent in the database.
@@ -153,33 +161,6 @@ Re-seed anytime:
 cd backend
 npm run seed
 ```
-
-## How to Finish the Project (Team Roadmap)
-
-### Week 1 — Polish & GitHub
-1. Create team GitHub repo and push `backend/` + `frontend/`
-2. Each member picks a role's pages and makes meaningful commits
-3. Add team names to this README
-4. Test all 5 demo logins end-to-end
-
-### Week 2 — Enhancements (pick based on team size)
-| Priority | Task | Journey |
-|----------|------|---------|
-| High | Organizer: create/deactivate team member UI | 1 |
-| High | Venue: availability calendar UI | 23 |
-| High | Guest: auto-fill event ID on feedback page | 21 |
-| Medium | Floor plan: export as PNG (html2canvas) | 3 |
-| Medium | Real email via Nodemailer (optional) | 17 |
-| Medium | PDF report export (pdfkit) | 7, 26 |
-| Low | QR code generation for guest check-in | 20 |
-| Low | Mobile-responsive CSS pass | All |
-
-### Before Submission (June 18, 2026)
-- [ ] All demo accounts work
-- [ ] `npm run seed` populates database
-- [ ] README has team names and setup steps
-- [ ] Each member has ≥1 meaningful commit
-- [ ] Walk through all 26 journeys in a demo rehearsal
 
 ## API Endpoints (Quick Reference)
 
