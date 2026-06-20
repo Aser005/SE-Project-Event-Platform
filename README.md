@@ -4,13 +4,13 @@ Full-stack web application for managing events end-to-end — from venue booking
 
 ## Team Members
 
-| Name | ID | Contributions |
-|------|----|---------------|
-| Hamza Ahmed El sheikh | 22001246 | _Describe commits_ |
-| Ali Mohamed | 19002054 | _Describe commits_ |
-| Aser Elserwee | 19002064 | _Describe commits_ |
-| Menoub Osama | 22001268 | _Describe commits_ |
-| Abdelraham Emad | 22001314 | _Describe commits_ |
+| Name                      | ID       | Contributions                                                                                                                                                                        |
+| ------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Ali Mohamed**           | 19002054 | Designed and implemented the authentication and authorization system, including user registration, login functionality, JWT-based security, and backend infrastructure setup.        |
+| **Aser Elserewee**        | 19002064 | Led project integration, repository management, debugging, testing, and deployment setup while ensuring all modules worked together correctly and maintaining the GitHub repository. |
+| **Menoub Osama**          | 22001268 | Developed the React frontend application, including role-based interfaces, dashboards, navigation flows, and responsive user interface components.                                   |
+| **Hamza Ahmed El Sheikh** | 22001246 | Implemented event planning and management features such as task assignment, guest management, invitations, messaging, feedback collection, and floor plan operations.                |
+| **Abdelrahman Emad**      | 22001314 | Developed venue booking, vendor management, budgeting, invoicing, reporting, and analytics modules to support complete event lifecycle management.                                   |
 
 ## Technologies
 
